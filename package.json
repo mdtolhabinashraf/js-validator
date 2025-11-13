@@ -1,0 +1,49 @@
+{
+  "name": "@mdtolhabinashraf/js-validator",
+  "version": "1.0.0",
+  "description": "Lightweight and type-safe JavaScript validation library",
+  "keywords": [
+    "validator",
+    "validation",
+    "schema",
+    "typescript",
+    "javascript",
+    "data-validation",
+    "form-validation",
+    "input-validation",
+    "object-validation",
+    "lightweight",
+    "js-validator"
+  ],
+  "homepage": "https://github.com/mdtolhabinashraf/js-validator#readme",
+  "bugs": {
+    "url": "https://github.com/mdtolhabinashraf/js-validator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdtolhabinashraf/js-validator.git"
+  },
+  "license": "MIT",
+  "author": "Md. Tolha Bin Ashraf",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
+    "lint": "eslint src/**/*.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "typescript-eslint": "^8.46.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.8"
+  }
+}
