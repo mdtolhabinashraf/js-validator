@@ -1,6 +1,6 @@
 {
   "name": "@mdtolhabinashraf/js-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight and type-safe JavaScript validation library",
   "keywords": [
     "validator",
